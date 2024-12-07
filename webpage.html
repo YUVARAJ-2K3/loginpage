@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="web.css" type="text/css">
+    <style>
+body
+{   
+
+    animation: body 15s infinite alternate;
+}        
+.menu
+{
+    width:100%;
+    float: left;
+    
+    
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+    
+}
+ul li
+{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-left: 200px ;
+    
+}
+ul li a
+{   font-weight: bolder;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(245, 221, 7);
+    text-decoration: none;
+   
+}
+ul li a:hover
+{
+    color: orangered;
+}
+@keyframes body {
+    
+    0% {background-image:url(back2.jpg)}
+    20% {background-image:url(trac2.jpg)}
+    40% {background-image:url(trac3.jpg);}
+    60% {background-image:url(trac4.jpg);}
+    80% {background-image:url(trac5.jpg);}
+    100% {background-image:url(trac6.jpg);}
+}
+
+
+
+
+
+
+
+
+
+    </style>
+    <title>HOMEPAGE</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="webpage.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="mailto:sureshyuvaraj2003@gmail.com">CONTACT US</a></li>
+            <li><a href="index.html">LOGOUT</a></li>
+
+        </ul>
+
+    </div>
+</body>
+</html>
